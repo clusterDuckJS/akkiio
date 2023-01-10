@@ -1,0 +1,14 @@
+.container-socials {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+.social-icons {
+    font-size: 3.5rem;
+    cursor: pointer;
+    transition: var(--transition);
+}
+.social-icons:hover {
+    transform: scale(1.5);
+    color: var(--color-primary);
+}
